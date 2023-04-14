@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1518133835878-5a93cc3f89e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#themaindiv{
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    text-align: center;
+    position : absolute;
+    top : 10%;
+    left: 20%;
+    right: 20%;
+    background-color: rgba(0, 0, 0 , 0.50);
+    border-radius: 20px;
+    border: 5px solid lightskyblue;
+}
+#thekeysdiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+}
+
+button{
+    background-color : rgba(255, 255, 255);
+    height: 60px;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+button:hover{
+    background-color : lightskyblue;
+}
+
+#input{
+    margin: 20px;
+    font-size: xx-large;
+    text-align: right;
+}
+
+#output{
+    margin: 20px;
+    font-size: medium;
+    text-align: right;
+}
